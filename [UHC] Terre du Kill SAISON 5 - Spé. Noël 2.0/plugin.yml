@@ -1,0 +1,60 @@
+name: TDK5
+version: 2.0
+author: EloxFire
+main: fr.eloxfire.game.main
+commands:
+  setspawn:
+    description: Commande pour set le spawn du jeu
+    permission: setspawn.use
+  alert:
+    description: Commande pour envoyer des messages a tout le serveur
+    permission: alert.use
+  wb:
+    description: Commande pour set les bordures de map
+    permission: wb.use
+  starttdk:
+    description: Commande pour d?arrer la game
+    permission: start.use
+  pvp:
+    description: Commande pour forcer le passage à la phase de pvp
+    permission: pvp.use
+  reduceborder:
+    description: Commande pour forcer le passage à la phase de reduction de bordures
+    permission: reduce.use
+  healall:
+    description: Commande pour final heal tout les players
+    permission: healall.use
+  ready:
+    description: Commande pour set son statut a "pret"
+  unready:
+    description: Commande pour set son statut a "pas pret"
+  rouge:
+    description: Commande pour rejoindre la team rouge
+  bleu:
+    description: Commande pour rejoindre la team bleue
+  vert:
+    description: Commande pour rejoindre la team verte
+  jaune:
+    description: Commande pour rejoindre la team jaune
+  gold:
+    description: Commande pour rejoindre la team doree
+  lime:
+    description: Commande pour rejoindre la team lime
+  bc:
+    description: Commande pour rejoindre la team bc
+  cyan:
+    description: Commande pour rejoindre la team cyan
+  rose:
+    description: Commande pour rejoindre la team rose
+  violet:
+    description: Commande pour rejoindre la team violette
+  blanc:
+    description: Commande pour rejoindre la team blanche
+  gris:
+    description: Commande pour rejoindre la team grise
+  clearteams:
+    description: Commande pour clear toutes les teams
+    permission: clearteams.use
+  checkTeams:
+    description: Commande pour check le nombre de joueurs dans les teams
+    permission: check.use

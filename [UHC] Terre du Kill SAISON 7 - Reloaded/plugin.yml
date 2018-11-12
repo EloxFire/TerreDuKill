@@ -1,0 +1,46 @@
+name: TDK_SAISON_7
+version: 4.0.0
+author: EloxFire
+main: fr.eloxfire.game.main
+commands:
+  setSpawn:
+    description: Permet de définir le spawn de la Map
+    permission: setspawn.use
+  reduceborder:
+    description: Permet d'accelerer a la phase de reduction de bordures
+    permission: border.use
+  info:
+    description: Permet d'envoyer un mesage d'information a tout le serveur
+    permission: info.use
+  ready:
+    description: Permet a un joueur d'indiquer qu'il est prêt
+  unready:
+    description: Permet a un joueur d'indiquer qu'il n'est plus prêt
+  starttdk:
+    description: Permet de démarer la partie
+    permission: starttdk.use
+  wb:
+    description: Permet de definir la taille de la bordure de Map
+    permission: wb.use
+  rouge:
+    description: Permet de rejoindre la team rouge
+  bleue:
+    description: Permet de rejoidnre la team bleue
+  vert:
+    description: Permet de rejoindre la team verte
+  jaune:
+    description: Permet de rejoindre la team jaune
+  gold:
+    description: Pemet de rejoindre la team gold
+  lime:
+    description: Permet de rejoindre la team lime
+  cyan:
+    description: Permet de rejoindre la team cyan
+  rose:
+    description: Permet de rejoindre la team rose
+  violet:
+    description: Permet de rejoindre la team violette
+  blanc:
+    description: Permet de rejoindre la team blanche
+  gris:
+    description: Permet de rejoindre la team grise
