@@ -32,7 +32,7 @@ public class main extends JavaPlugin {
 		// CLASSE PRINCIPALE PARTOUT DANS LES AUTRES CLASSES
 		instance = this;
 		// ON ENVOIE UN MESSAGE AU DEMARAGE DU PLUGIN
-		getServer().getConsoleSender().sendMessage("§6[T.D.K]§2 Terre du Kill SAISON 6 ON !");
+		getServer().getConsoleSender().sendMessage("Â§6[T.D.K]Â§2 Terre du Kill SAISON 6 ON !");
 
 		// COMMANDES DE PREPARATION DE LA GAME
 		getCommand("setspawn").setExecutor(new setGame());
@@ -110,7 +110,7 @@ public class main extends JavaPlugin {
 	@Override
 	public void onDisable() {
 		// ON EN VOIE UN MESSAGE LORS DE L'ARRET DU PLUGIN
-		getServer().getConsoleSender().sendMessage("§6[T.D.K]§2 Terre du Kill SAISON 6 OFF !");
+		getServer().getConsoleSender().sendMessage("ï¿½6[T.D.K]ï¿½2 Terre du Kill SAISON 6 OFF !");
 	}
 
 	// PROCEDURE POUR DEFINIR UN STATUT DE JEU DURANT LA PARTIE
